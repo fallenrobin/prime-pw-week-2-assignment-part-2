@@ -140,7 +140,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
-  (FIX colorTwo = 'purple';)
+FIX colorTwo = 'purple';
 }
 */
 
@@ -151,7 +151,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-FIX line 153 should be if (temp > 39 && time >= 4) because they BOTH need to be true
+FIX line 155 should be if (temp > 39 && time >= 4) because they BOTH need to be true
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -164,7 +164,7 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-FIX line 166 should be if(age < minAge) then console.log('no entry')
+FIX line 168 should be if(age < minAge)
 if(minAge <= age) {
   console.log('no entry');
 } else {
