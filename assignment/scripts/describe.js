@@ -140,7 +140,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
-FIX colorTwo = 'purple';
+FIX need to add: colorTwo = 'purple';
 }
 */
 
@@ -151,7 +151,7 @@ FIX colorTwo = 'purple';
 /*
 let temp = 40;
 const time = 4;
-FIX line 155 should be if (temp > 39 && time >= 4) because they BOTH need to be true
+FIX line 155 should be: if (temp > 39 && time >= 4), because they BOTH need to be true
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
