@@ -25,7 +25,7 @@ if (number >= 2) {
 */
 
 
-// 1. We make a variable called Dane and set it to the string "Dane."
+// 1. We make a variable called Name and set it to the string "Dane."
 // We create a condition where if the name variable strictly matches the string "Mary" it will console.log "Hi Mary!"
 // The default is that the console.log will print "How do you do?"
 //
